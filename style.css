@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+label {
+	font-weight: bold;
+}
+
+form {
+	width: 300px;
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid gray;
+	border-radius: 15px;
+}
+
+input {
+	padding: 5px;
+}
+
+button {
+	padding: 5px;
+	border: 0;
+}
+
+.click {
+	background-color: green;
+}
+
+.no_click {
+	background-color: red;
+}
+
+.busy {
+	color: red;
+}
