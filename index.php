@@ -32,9 +32,7 @@ if (isset($_COOKIE['email']) && isset($_COOKIE['password'])) {
 </form>
 
 <?php
-
 }
-
 ?>
 <script src="lang.js"></script>
 <script src="script.js"></script>
