@@ -19,15 +19,29 @@ input {
 
 button {
 	padding: 5px;
-	border: 0;
+	border: 1px grey solid;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+} /* убираем рамку вокруг кнопки в chrome */
+
+#btnRegister {
+	width: 100px;
+}
+
+#btnLogin {
+	width: 50px;
 }
 
 .click {
-	background-color: green;
+	background-color: grey;
 }
 
 .no_click {
-	background-color: red;
+	background-color: white;
 }
 
 .busy {
